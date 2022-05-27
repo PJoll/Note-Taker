@@ -24,7 +24,7 @@ app.get("/notes", (req, res) => {
 // get request for notes
 
 app.get("/api/notes", (req, res) =>
-res.sendFile(path.join(__dirname, "./db/db.json")));
+res.sendFile(path.join(__dirname, "db/db.json")));
 
 // POST request for notes
 app.post("/api/notes", (req, res)=> {
@@ -52,7 +52,7 @@ if (title && text) {
         text,
         id:uuidv1()
     }; 
-    fs.readFile("./db/db.json", "utf8", (err,notes) => {
+    fs.readFile("db/db.json", "utf8", (err,notes) => {
         if (err) {
             console.error(err);
         }else {
@@ -60,7 +60,7 @@ if (title && text) {
 
             parsedNotes.push(newNote);
 
-            fs.writeFile("./db/db.json", JSON.stringify(parsedNotes, null, 4),(writeErr ) =>
+            fs.writeFile("db/db.json", JSON.stringify(parsedNotes, null, 4),(writeErr ) =>
             writeErr
             ? console.error(writeErr)
             : console.info("Updated Notes")
