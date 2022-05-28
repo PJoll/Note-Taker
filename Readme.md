@@ -19,9 +19,9 @@ The goal of the project is to create a site that enables the user to write and s
 
 ## Usage 
 The following link is the completed active website.
-https://pjoll.github.io/Weather-Dashboard/
+https://limitless-plains-83718.herokuapp.com/
 
 The following image shows the completed result.
 
 
-![alt text](./Assets/FireShot%20Capture%20009%20-%20Weather%20Finder%20-%20127.0.0.1.png)
+![alt text](./public/assets/Note%20Taker%20-.png)
