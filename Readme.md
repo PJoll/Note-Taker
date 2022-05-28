@@ -17,9 +17,6 @@ The goal of the project is to create a site that enables the user to write and s
 -Creating api routtes
 -Uploading to heroku platform
 
-
-
-
 ## Usage 
 The following link is the completed active website.
 https://pjoll.github.io/Weather-Dashboard/
