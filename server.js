@@ -90,7 +90,7 @@ if (title && text) {
 
 // returning to the index file
 app.get("*", (req, res) => 
-res.sendFile(path.join(__dirname, "public/index.html")));
+res.sendFile(path.join(__dirname, "/index.html")));
 
 app.listen(PORT, () => 
     console.log(`App listening at http://localhost:${PORT}`));
