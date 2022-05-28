@@ -17,6 +17,9 @@ app.use(express.static(__dirname + "/public"))
 app.get("/notes", (req, res) => {
     res.sendFile(path.join(__dirname, "public/notes.html"))});
 
+app.get("/notes", function(req, res) {
+    res.sendFile(path.join(__dirname, "index.js"));
+    });
 
 
 
