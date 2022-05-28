@@ -83,13 +83,10 @@ if (title && text) {
 
 
 
-// convert notes to object using stringify
-// let notes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
-// notes.push(newNote);
-// fs.writeFileSync("./db/db.json", JSON.stringify(notes));
 
-// res.json(notes)
-});
+
+})
+
 
 // returning to the index file
 app.get("/", (req, res) => 
